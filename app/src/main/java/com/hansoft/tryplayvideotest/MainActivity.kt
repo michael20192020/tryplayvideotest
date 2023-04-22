@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
                 vvVideo.resume()
                 Log.d("aaa", "onCreate: bbb")
                 Log.d("aaa", "onCreate: ccc")
+                Log.d("aaa", "onCreate: ddd")
+
             }
         }
     }
