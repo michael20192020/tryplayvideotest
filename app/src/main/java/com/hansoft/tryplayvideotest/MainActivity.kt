@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             if (vvVideo.isPlaying) {
                 vvVideo.resume()
                 Log.d("aaa", "onCreate: bbb")
+                Log.d("aaa", "onCreate: ccc")
             }
         }
     }
