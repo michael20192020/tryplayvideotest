@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         btnPause.setOnClickListener {
             if (vvVideo.isPlaying) {
                 vvVideo.pause()
+                Log.d("aaa", "onCreate: aaa")
             }
         }
         btnReplay.setOnClickListener {
