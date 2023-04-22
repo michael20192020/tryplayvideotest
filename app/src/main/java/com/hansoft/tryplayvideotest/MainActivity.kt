@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         btnReplay.setOnClickListener {
             if (vvVideo.isPlaying) {
                 vvVideo.resume()
+                Log.d("aaa", "onCreate: bbb")
             }
         }
     }
