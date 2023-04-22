@@ -32,4 +32,13 @@ class ExampleUnitTest {
             "Grape" with 5)
         println(map)
     }
+
+    @Test
+    fun thread_test()
+    {
+        MyThread().start()
+        val yourThread = YourThread()
+        Thread(yourThread).start()
+        Thread.sleep(8000)
+    }
 }
