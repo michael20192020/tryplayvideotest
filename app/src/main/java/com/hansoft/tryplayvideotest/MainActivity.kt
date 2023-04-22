@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("MainActivity", "video is playing")
                 Log.d("MainActivity", "onCreate: aaa")
                 Log.d("MainActivity", "onCreate: bbb")
+                Log.d("MainActivity", "onCreate: ccc")
             }
         }
         btnPause.setOnClickListener {
