@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
                 vvVideo.start()
                 Log.d("MainActivity", "video is playing")
                 Log.d("MainActivity", "onCreate: aaa")
+                Log.d("MainActivity", "onCreate: bbb")
             }
         }
         btnPause.setOnClickListener {
