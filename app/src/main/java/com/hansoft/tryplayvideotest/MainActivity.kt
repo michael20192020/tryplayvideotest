@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
                 Log.d("MainActivity", "onCreate: aaa")
                 Log.d("MainActivity", "onCreate: bbb")
                 Log.d("MainActivity", "onCreate: ccc")
+                Log.d("MainActivity", "onCreate: ddd")
+
             }
         }
         btnPause.setOnClickListener {
