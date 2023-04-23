@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("MainActivity", "onCreate: bbb")
                 Log.d("MainActivity", "onCreate: ccc")
                 Log.d("MainActivity", "onCreate: ddd")
+                Log.d("MainActivity", "onCreate: eee")
 
             }
         }
